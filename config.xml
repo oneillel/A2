@@ -8,8 +8,10 @@
 <name>ToDo List</name>
 <description>Assessment 2 - MWA</description>
 <author email ="anne.oneill@webelevate.ie">Anne O Neill</author>
+<platform name="android">
+    <icon src="icon\logo1.png" />
+ </platform>
 
-<icon src="icon\logo1.png" />
 <content src="index.html"></content>
 <preference name="phonegap-version" value="cli-6.5.0" />
 <feature name="http://api.phonegap.com/1.0/device"/>
