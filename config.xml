@@ -3,7 +3,7 @@
 <widget id="com.annecode.todolist"
        version="1.0.7"
        xmlns="http://www.w3.org/ns/widgets"
-       xmlns:gap="https://phonegap.com/ns/1.0">
+       xmlns:gap="http://phonegap.com/ns/1.0">
 
 <name>ToDo List</name>
 <description>Assessment 2 - MWA</description>
