@@ -9,7 +9,7 @@
 <description>Assessment 2 - MWA</description>
 <author email ="anne.oneill@webelevate.ie">Anne O Neill</author>
 <platform name="android">
-    <icon src="icon\logo1.png" />
+    <icon src="icon/logo.png" />
  </platform>
 
 <content src="index.html"></content>
