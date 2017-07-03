@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A2 - ToDo List</title>
+  <link rel="stylesheet" type="text/css" href="css\style.css">
+  <!--Based on a codepen by Sly Ezeani codepen.io/impreze/pen/wKwJQB-->
+
+</head>
+
+
+<body>
+  <div class="container" ng-app="Todo">
+    <div class="todoList" ng-controller="TodoCtrl as todoctrl">
+      <div class="todoHeader"> <!--Header-->
+        <p>To Do List</p>
+      </div>
+        <div class="todoItems"> <!--displays tasks in list-->
+          <ul> 
+            <li class="todoItem" ng-repeat="todo in todoctrl.todos track by $index" ng-click="todoctrl.done(todo)">
+              <span>{{ todo }}</span>
+            </li>
+          </ul>
+      </div>
+
+      <div class="add-todo"> <!-- Adds new task-->
+
+        <input type="text" class="txt" placeholder="Enter a New Task" ng-model="todoctrl.newTodo" ng-keyup="todoctrl.add($event)" />
+        <br />
+        <input type="button" class="btn btn-primary" value="Add Task" ng-model="todoctrl.newTodo" ng-click="todoctrl.add('submit')" />
+      </div>
+
+    </div>
+
+  </div>
+
+
+<script src="js/angular.min.js"></script>
+<script src="js/script.js"></script>
+
+
+
+</body>
+</html>

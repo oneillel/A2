@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<widget id="com.annecode.todolist"
+       version="1.0.7"
+       xmlns="http://www.w3.org/ns/widgets"
+       xmlns:gap="https://phonegap.com/ns/1.0">
+
+<name>ToDo List</name>
+<description>Assessment 2 - MWA</description>
+<author email ="anne.oneill@webelevate.ie">Anne O Neill</author>
+
+<icon src="logo.png" />
+<content src="index.html"></content>
+<preference name="phonegap-version" value="cli-6.5.0" />
+<feature name="http://api.phonegap.com/1.0/device"/>
+</widget>
+
+ 
+  
